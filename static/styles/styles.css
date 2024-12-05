@@ -5,3 +5,20 @@
     background: #555;
     color: #f1f1f1;
   }
+  .container { 
+    display:flex;
+    flex-direction: row;
+  }
+   section {
+    border: 2px black;
+   }
+   .item-container {
+    border: 2px orange;
+    display:flex;
+    width:75%;
+    justify-content: space space-evenly;
+    flex wrap: wrap
+   }
+   .item-card{
+    borde
+   }
