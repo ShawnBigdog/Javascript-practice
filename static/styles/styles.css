@@ -20,5 +20,30 @@
     flex wrap: wrap
    }
    .item-card{
-    borde
+    border: 2px green;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 20px;
+    padding:10px;
+    box-shadow: 0-2px 5px rgba(0,0,0,0.1)
+   }
+   .item-header{
+    padding-top:10px;
+    padding bottom: 10px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+   }
+   .item footer{
+
+   }
+   .itens-container .items-card img{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border:5px solid grey;
+
    }
